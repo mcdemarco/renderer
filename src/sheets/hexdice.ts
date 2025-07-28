@@ -27,7 +27,7 @@ sheet.glyphs.set("hexfdie-00", (canvas: SVGContainer) => {
 
 sheet.glyphs.set("hexfdie-01", (canvas: SVGContainer) => {
     const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
         .stroke({width: 1, color: "#000"})
         .attr("data-playerfill", true)
@@ -43,114 +43,12 @@ sheet.glyphs.set("hexfdie-01", (canvas: SVGContainer) => {
 
 sheet.glyphs.set("hexfdie-02", (canvas: SVGContainer) => {
     const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
         .stroke({width: 1, color: "#000"})
         .attr("data-playerfill", true)
         .attr("data-context-border", true)
         .center(25, 25);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(13.5, 13.5);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(36.5, 36.5);
-    group.viewbox(0, 0, 50, 50);
-    return group;
-});
-
-sheet.glyphs.set("hexfdie-03", (canvas: SVGContainer) => {
-    const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
-        .fill("none")
-        .stroke({width: 1, color: "#000"})
-        .attr("data-playerfill", true)
-        .attr("data-context-border", true)
-        .center(25, 25);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(13.5, 13.5);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(25, 25);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(36.5, 36.5);
-    group.viewbox(0, 0, 50, 50);
-    return group;
-});
-
-sheet.glyphs.set("hexfdie-04", (canvas: SVGContainer) => {
-    const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
-        .fill("none")
-        .stroke({width: 1, color: "#000"})
-        .attr("data-context-border", true)
-        .attr("data-playerfill", true)
-        .center(25, 25);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(13.5, 13.5);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(36.5, 36.5);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(36.5, 13.5);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(13.5, 36.5);
-    group.viewbox(0, 0, 50, 50);
-    return group;
-});
-
-sheet.glyphs.set("hexfdie-05", (canvas: SVGContainer) => {
-    const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
-        .fill("none")
-        .stroke({width: 1, color: "#000"})
-        .attr("data-context-border", true)
-        .attr("data-playerfill", true)
-        .center(25, 25);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(13.5, 13.5);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(36.5, 36.5);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(36.5, 13.5);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(13.5, 36.5);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(25, 25);
-    group.viewbox(0, 0, 50, 50);
-    return group;
-});
-
-sheet.glyphs.set("hexfdie-06", (canvas: SVGContainer) => {
-    const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
-        .fill("none")
-        .stroke({width: 1, color: "#000"})
-        .attr("data-context-border", true)
-        .attr("data-playerfill", true)
-        .center(25, 25);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(13.5, 10);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(36.5, 40);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(36.5, 10);
-    group.circle(10).fill("#000")
-        .attr("data-context-fill", true)
-        .center(13.5, 40);
     group.circle(10).fill("#000")
         .attr("data-context-fill", true)
         .center(13.5, 25);
@@ -161,9 +59,30 @@ sheet.glyphs.set("hexfdie-06", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-07", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexfdie-03", (canvas: SVGContainer) => {
     const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
+        .fill("none")
+        .stroke({width: 1, color: "#000"})
+        .attr("data-playerfill", true)
+        .attr("data-context-border", true)
+        .center(25, 25);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(13.5, 25);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(30, 35);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(30, 15);
+    group.viewbox(0, 0, 50, 50);
+    return group;
+});
+
+sheet.glyphs.set("hexfdie-04", (canvas: SVGContainer) => {
+    const group = canvas.symbol();
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
         .stroke({width: 1, color: "#000"})
         .attr("data-context-border", true)
@@ -171,22 +90,103 @@ sheet.glyphs.set("hexfdie-07", (canvas: SVGContainer) => {
         .center(25, 25);
     group.circle(10).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 10);
+        .center(17.5, 35);
     group.circle(10).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 40);
+        .center(17.5, 15);
     group.circle(10).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 10);
+        .center(32.5, 35);
     group.circle(10).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 40);
+        .center(32.5, 15);
+    group.viewbox(0, 0, 50, 50);
+    return group;
+});
+
+sheet.glyphs.set("hexfdie-05", (canvas: SVGContainer) => {
+    const group = canvas.symbol();
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
+        .fill("none")
+        .stroke({width: 1, color: "#000"})
+        .attr("data-context-border", true)
+        .attr("data-playerfill", true)
+        .center(25, 25);
     group.circle(10).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 25);
+        .center(17.5, 36.5);
     group.circle(10).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 25);
+        .center(32.5, 13.5);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(11, 25);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(38, 25);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(25, 25);
+    group.viewbox(0, 0, 50, 50);
+    return group;
+});
+
+sheet.glyphs.set("hexfdie-06", (canvas: SVGContainer) => {
+    const group = canvas.symbol();
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
+        .fill("none")
+        .stroke({width: 1, color: "#000"})
+        .attr("data-context-border", true)
+        .attr("data-playerfill", true)
+        .center(25, 25);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(17.5, 36.5);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(17.5, 13.5);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(32.5, 36.5);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(32.5, 13.5);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(11, 25);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(38, 25);
+    group.viewbox(0, 0, 50, 50);
+    return group;
+});
+
+sheet.glyphs.set("hexfdie-07", (canvas: SVGContainer) => {
+    const group = canvas.symbol();
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
+        .fill("none")
+        .stroke({width: 1, color: "#000"})
+        .attr("data-context-border", true)
+        .attr("data-playerfill", true)
+        .center(25, 25);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(17.5, 36.5);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(17.5, 13.5);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(32.5, 36.5);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(32.5, 13.5);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(11, 25);
+    group.circle(10).fill("#000")
+        .attr("data-context-fill", true)
+        .center(38, 25);
     group.circle(10).fill("#000")
         .attr("data-context-fill", true)
         .center(25, 25);
@@ -196,7 +196,7 @@ sheet.glyphs.set("hexfdie-07", (canvas: SVGContainer) => {
 
 sheet.glyphs.set("hexfdie-08", (canvas: SVGContainer) => {
     const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
         .stroke({width: 1, color: "#000"})
         .attr("data-context-border", true)
@@ -232,7 +232,7 @@ sheet.glyphs.set("hexfdie-08", (canvas: SVGContainer) => {
 
 sheet.glyphs.set("hexfdie-09", (canvas: SVGContainer) => {
     const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
         .stroke({width: 1, color: "#000"})
         .attr("data-context-border", true)
@@ -271,7 +271,7 @@ sheet.glyphs.set("hexfdie-09", (canvas: SVGContainer) => {
 
 sheet.glyphs.set("hexfdie-10", (canvas: SVGContainer) => {
     const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
         .stroke({width: 1, color: "#000"})
         .attr("data-context-border", true)
@@ -313,7 +313,7 @@ sheet.glyphs.set("hexfdie-10", (canvas: SVGContainer) => {
 
 sheet.glyphs.set("hexfdie-11", (canvas: SVGContainer) => {
     const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
         .stroke({width: 1, color: "#000"})
         .attr("data-context-border", true)
@@ -358,7 +358,7 @@ sheet.glyphs.set("hexfdie-11", (canvas: SVGContainer) => {
 
 sheet.glyphs.set("hexfdie-12", (canvas: SVGContainer) => {
     const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
         .stroke({width: 1, color: "#000"})
         .attr("data-context-border", true)
@@ -406,7 +406,7 @@ sheet.glyphs.set("hexfdie-12", (canvas: SVGContainer) => {
 
 sheet.glyphs.set("hexfdie-13", (canvas: SVGContainer) => {
     const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
         .stroke({width: 1, color: "#000"})
         .attr("data-context-border", true)
@@ -457,7 +457,7 @@ sheet.glyphs.set("hexfdie-13", (canvas: SVGContainer) => {
 
 sheet.glyphs.set("hexfdie-14", (canvas: SVGContainer) => {
     const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
         .stroke({width: 1, color: "#000"})
         .attr("data-context-border", true)
@@ -511,7 +511,7 @@ sheet.glyphs.set("hexfdie-14", (canvas: SVGContainer) => {
 
 sheet.glyphs.set("hexfdie-15", (canvas: SVGContainer) => {
     const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
         .stroke({width: 1, color: "#000"})
         .attr("data-context-border", true)
@@ -568,7 +568,7 @@ sheet.glyphs.set("hexfdie-15", (canvas: SVGContainer) => {
 
 sheet.glyphs.set("hexfdie-16", (canvas: SVGContainer) => {
     const group = canvas.symbol();
-    group.polygon("0,41.57 24,0 72,0 96,41.57 72,83.14 24,83.14")
+    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
         .stroke({width: 1, color: "#000"})
         .attr("data-context-border", true)
@@ -628,7 +628,7 @@ sheet.glyphs.set("hexfdie-16", (canvas: SVGContainer) => {
 
 sheet.glyphs.set("hexpdie-00", (canvas: SVGContainer) => {
     const group = canvas.symbol();
-    group.polygon("25,50 46.67,37.5 46.67,12.5 25,0 3.33,12.5 3.33,37.5")
+    group.polygon("20.76,0 0,12 0,36 20.76,48 41.57,36 41.57,12")
         .fill("none")
         .stroke({width: 1, color: "#000"})
         .attr("data-playerfill", true)
