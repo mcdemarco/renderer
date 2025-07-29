@@ -202,81 +202,6 @@ sheet.glyphs.set("hexfdie-08", (canvas: SVGContainer) => {
         .attr("data-context-border", true)
         .attr("data-playerfill", true)
         .center(25, 25);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(17, 39);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(17, 11);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(33, 39);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(32.5, 11);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(9, 25);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(41, 25);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(25, 19.25);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(25, 30.75);
-    group.viewbox(0, 0, 50, 50);
-    return group;
-});
-
-sheet.glyphs.set("hexfdie-09", (canvas: SVGContainer) => {
-    const group = canvas.symbol();
-    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
-        .fill("none")
-        .stroke({width: 1, color: "#000"})
-        .attr("data-context-border", true)
-        .attr("data-playerfill", true)
-        .center(25, 25);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(17, 39);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(17, 11);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(33, 39);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(32.5, 11);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(9, 25);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(41, 25);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(25, 19.25);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(19.5, 29);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(30.5, 29);
-    group.viewbox(0, 0, 50, 50);
-    return group;
-});
-
-sheet.glyphs.set("hexfdie-08", (canvas: SVGContainer) => {
-    const group = canvas.symbol();
-    group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
-        .fill("none")
-        .stroke({width: 1, color: "#000"})
-        .attr("data-context-border", true)
-        .attr("data-playerfill", true)
-        .center(25, 25);
     group.circle(7).fill("#000")
         .attr("data-context-fill", true)
         .center(17, 11);
@@ -363,10 +288,16 @@ sheet.glyphs.set("hexfdie-10", (canvas: SVGContainer) => {
         .center(33, 11);
     group.circle(7).fill("#000")
         .attr("data-context-fill", true)
+        .center(13, 18);
+    group.circle(7).fill("#000")
+        .attr("data-context-fill", true)
         .center(9, 25);
     group.circle(7).fill("#000")
         .attr("data-context-fill", true)
         .center(41, 25);
+    group.circle(7).fill("#000")
+        .attr("data-context-fill", true)
+        .center(37, 32);
     group.circle(7).fill("#000")
         .attr("data-context-fill", true)
         .center(17, 39);
@@ -388,39 +319,39 @@ sheet.glyphs.set("hexfdie-11", (canvas: SVGContainer) => {
         .attr("data-context-border", true)
         .attr("data-playerfill", true)
         .center(25, 25);
-    group.circle(8).fill("#000")
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 10);
-    group.circle(8).fill("#000")
+        .center(17, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 40);
-    group.circle(8).fill("#000")
+        .center(25, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 10);
-    group.circle(8).fill("#000")
+        .center(33, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 40);
-    group.circle(8).fill("#000")
+        .center(13, 18);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 20);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(10, 30);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(40, 20);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(40, 30);
-    group.circle(8).fill("#000")
-        .attr("data-context-fill", true)
-        .center(25, 10);
-    group.circle(8).fill("#000")
+        .center(9, 25);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
         .center(25, 25);
-    group.circle(8).fill("#000")
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(25, 40);
+        .center(41, 25);
+    group.circle(7).fill("#000")
+        .attr("data-context-fill", true)
+        .center(37, 32);
+    group.circle(7).fill("#000")
+        .attr("data-context-fill", true)
+        .center(17, 39);
+    group.circle(7).fill("#000")
+        .attr("data-context-fill", true)
+        .center(25, 39);
+    group.circle(7).fill("#000")
+        .attr("data-context-fill", true)
+        .center(33, 39);
     group.viewbox(0, 0, 50, 50);
     return group;
 });
@@ -433,42 +364,42 @@ sheet.glyphs.set("hexfdie-12", (canvas: SVGContainer) => {
         .attr("data-context-border", true)
         .attr("data-playerfill", true)
         .center(25, 25);
-    group.circle(8).fill("#000")
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 10);
-    group.circle(8).fill("#000")
+        .center(17, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 40);
-    group.circle(8).fill("#000")
+        .center(25, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 10);
-    group.circle(8).fill("#000")
+        .center(33, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 40);
-    group.circle(8).fill("#000")
+        .center(13, 18);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 20);
-    group.circle(8).fill("#000")
+        .center(37, 18);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 30);
-    group.circle(8).fill("#000")
+        .center(9, 25);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 20);
-    group.circle(8).fill("#000")
+        .center(41, 25);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 30);
-    group.circle(8).fill("#000")
+        .center(13, 32);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(25, 10);
-    group.circle(8).fill("#000")
+        .center(37, 32);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(25, 20);
-    group.circle(8).fill("#000")
+        .center(17, 39);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(25, 30);
-    group.circle(8).fill("#000")
+        .center(25, 39);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(25, 40);
+        .center(33, 39);
     group.viewbox(0, 0, 50, 50);
     return group;
 });
@@ -481,45 +412,45 @@ sheet.glyphs.set("hexfdie-13", (canvas: SVGContainer) => {
         .attr("data-context-border", true)
         .attr("data-playerfill", true)
         .center(25, 25);
-    group.circle(8).fill("#000")
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(25, 10);
-    group.circle(8).fill("#000")
+        .center(17, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 20);
-    group.circle(8).fill("#000")
+        .center(25, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 30);
-    group.circle(8).fill("#000")
+        .center(33, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 40);
-    group.circle(8).fill("#000")
+        .center(13, 18);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(20, 20);
-    group.circle(8).fill("#000")
+        .center(37, 18);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(20, 30);
-    group.circle(8).fill("#000")
+        .center(9, 25);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(20, 40);
-    group.circle(8).fill("#000")
+        .center(25, 25);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(30, 20);
-    group.circle(8).fill("#000")
+        .center(41, 25);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(30, 30);
-    group.circle(8).fill("#000")
+        .center(13, 32);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(30, 40);
-    group.circle(8).fill("#000")
+        .center(37, 32);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 20);
-    group.circle(8).fill("#000")
+        .center(17, 39);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 30);
-    group.circle(8).fill("#000")
+        .center(25, 39);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 40);
+        .center(33, 39);
     group.viewbox(0, 0, 50, 50);
     return group;
 });
@@ -532,48 +463,48 @@ sheet.glyphs.set("hexfdie-14", (canvas: SVGContainer) => {
         .attr("data-context-border", true)
         .attr("data-playerfill", true)
         .center(25, 25);
-    group.circle(8).fill("#000")
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(15, 10);
-    group.circle(8).fill("#000")
+        .center(17, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(35, 10);
-    group.circle(8).fill("#000")
+        .center(25, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 20);
-    group.circle(8).fill("#000")
+        .center(33, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 30);
-    group.circle(8).fill("#000")
+        .center(13, 18);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 40);
-    group.circle(8).fill("#000")
+        .center(37, 18);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(20, 20);
-    group.circle(8).fill("#000")
+        .center(9, 25);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(20, 30);
-    group.circle(8).fill("#000")
+        .center(17, 25);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(20, 40);
-    group.circle(8).fill("#000")
+        .center(33, 25);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(30, 20);
-    group.circle(8).fill("#000")
+        .center(41, 25);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(30, 30);
-    group.circle(8).fill("#000")
+        .center(13, 32);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(30, 40);
-    group.circle(8).fill("#000")
+        .center(37, 32);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 20);
-    group.circle(8).fill("#000")
+        .center(17, 39);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 30);
-    group.circle(8).fill("#000")
+        .center(25, 39);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 40);
+        .center(33, 39);
     group.viewbox(0, 0, 50, 50);
     return group;
 });
@@ -586,51 +517,51 @@ sheet.glyphs.set("hexfdie-15", (canvas: SVGContainer) => {
         .attr("data-context-border", true)
         .attr("data-playerfill", true)
         .center(25, 25);
-    group.circle(8).fill("#000")
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(15, 10);
-    group.circle(8).fill("#000")
+        .center(17, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(25, 10);
-    group.circle(8).fill("#000")
+        .center(25, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(35, 10);
-    group.circle(8).fill("#000")
+        .center(33, 11);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 20);
-    group.circle(8).fill("#000")
+        .center(13, 18);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 30);
-    group.circle(8).fill("#000")
+        .center(37, 18);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(10, 40);
-    group.circle(8).fill("#000")
+        .center(9, 25);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(20, 20);
-    group.circle(8).fill("#000")
+        .center(17, 25);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(20, 30);
-    group.circle(8).fill("#000")
+        .center(29, 18);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(20, 40);
-    group.circle(8).fill("#000")
+        .center(29, 32);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(30, 20);
-    group.circle(8).fill("#000")
+        .center(41, 25);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(30, 30);
-    group.circle(8).fill("#000")
+        .center(13, 32);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(30, 40);
-    group.circle(8).fill("#000")
+        .center(37, 32);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 20);
-    group.circle(8).fill("#000")
+        .center(17, 39);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 30);
-    group.circle(8).fill("#000")
+        .center(25, 39);
+    group.circle(7).fill("#000")
         .attr("data-context-fill", true)
-        .center(40, 40);
+        .center(33, 39);
     group.viewbox(0, 0, 50, 50);
     return group;
 });
