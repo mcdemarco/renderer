@@ -90,16 +90,16 @@ sheet.glyphs.set("hexfdie-04", (canvas: SVGContainer) => {
         .center(25, 25);
     group.circle(10).fill("#000")
         .attr("data-context-fill", true)
-        .center(17.5, 35);
+        .center(17.5, 36.5);
     group.circle(10).fill("#000")
         .attr("data-context-fill", true)
-        .center(17.5, 15);
+        .center(32.5, 13.5);
     group.circle(10).fill("#000")
         .attr("data-context-fill", true)
-        .center(32.5, 35);
+        .center(11, 25);
     group.circle(10).fill("#000")
         .attr("data-context-fill", true)
-        .center(32.5, 15);
+        .center(38, 25);
     group.viewbox(0, 0, 50, 50);
     return group;
 });
