@@ -4,7 +4,7 @@ import type { ISheet } from "./ISheet";
 const sheet: ISheet = {
     name: "hexdice",
     // tslint:disable-next-line:object-literal-sort-keys
-    description: "This contains hexagonal dice glyphs.",
+    description: "This contains hexagonal (hexf) dice glyphs.",
     cellsize: 100,
     glyphs: new Map<string, (canvas: SVGContainer) => SVGSymbol>(),
 };
@@ -13,7 +13,7 @@ const sheet: ISheet = {
 // The element's root `id` must be the same as its map key.
 // If using groups to make complex glyphs, be sure to include the attribute `data-cellsize` (the greater of width and height) so the renderer can scale it properly.
 
-sheet.glyphs.set("hexfdie-00", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-00", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -25,7 +25,7 @@ sheet.glyphs.set("hexfdie-00", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-01", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-01", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -41,7 +41,7 @@ sheet.glyphs.set("hexfdie-01", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-02", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-02", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -59,7 +59,7 @@ sheet.glyphs.set("hexfdie-02", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-03", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-03", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -80,7 +80,7 @@ sheet.glyphs.set("hexfdie-03", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-04", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-04", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -104,7 +104,7 @@ sheet.glyphs.set("hexfdie-04", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-05", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-05", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -131,7 +131,7 @@ sheet.glyphs.set("hexfdie-05", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-06", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-06", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -161,7 +161,7 @@ sheet.glyphs.set("hexfdie-06", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-07", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-07", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -194,7 +194,7 @@ sheet.glyphs.set("hexfdie-07", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-08", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-08", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -230,7 +230,7 @@ sheet.glyphs.set("hexfdie-08", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-09", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-09", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -269,7 +269,7 @@ sheet.glyphs.set("hexfdie-09", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-10", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-10", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -311,7 +311,7 @@ sheet.glyphs.set("hexfdie-10", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-11", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-11", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -356,7 +356,7 @@ sheet.glyphs.set("hexfdie-11", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-12", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-12", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -404,7 +404,7 @@ sheet.glyphs.set("hexfdie-12", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-13", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-13", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -455,7 +455,7 @@ sheet.glyphs.set("hexfdie-13", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-14", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-14", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -509,7 +509,7 @@ sheet.glyphs.set("hexfdie-14", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-15", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-15", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -566,7 +566,7 @@ sheet.glyphs.set("hexfdie-15", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-16", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-16", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -626,7 +626,7 @@ sheet.glyphs.set("hexfdie-16", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-17", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-17", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -689,7 +689,7 @@ sheet.glyphs.set("hexfdie-17", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-18", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-18", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
@@ -755,7 +755,7 @@ sheet.glyphs.set("hexfdie-18", (canvas: SVGContainer) => {
     return group;
 });
 
-sheet.glyphs.set("hexfdie-19", (canvas: SVGContainer) => {
+sheet.glyphs.set("hexdie-19", (canvas: SVGContainer) => {
     const group = canvas.symbol();
     group.polygon("0,20.76 12,0 36,0 48,20.76 36,41.57 12,41.57")
         .fill("none")
