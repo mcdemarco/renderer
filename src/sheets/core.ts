@@ -327,6 +327,64 @@ sheet.glyphs.set("dragon", (canvas: SVGContainer) => {
     return group;
 });
 
+sheet.glyphs.set("frog", (canvas: SVGContainer) => {
+    const sym = canvas.symbol()
+    const stroke: StrokeData = {
+        color: "black",
+        miterlimit: 10,
+        width: 2,
+    }
+    sym.path("M14.8,4.83a3.23,3.23,0,0,0,0-.82,2.82,2.82,0,0,0-5.61.43,2.55,2.55,0,0,0,0,.39,4.53,4.53,0,0,1-.84,3.42A6.2,6.2,0,0,0,7.16,12c0,3.12,2.17,5.65,4.84,5.65S16.84,15.1,16.84,12a6.18,6.18,0,0,0-1.2-3.73A4.53,4.53,0,0,1,14.8,4.83Z")
+        .stroke(stroke)
+        .fill("none")
+        .attr("data-context-stroke", true);
+    sym.line(16.71, 1.62, 19.53, 5.38)
+        .stroke(stroke)
+        .attr("data-context-stroke", true);
+    sym.line(19.53, 0.68, 19.53, 5.38)
+        .stroke(stroke)
+        .attr("data-context-stroke", true);
+    sym.line(23, 18.51, 18.34, 17.84)
+        .stroke(stroke)
+        .attr("data-context-stroke", true);
+    sym.line(21.67, 21.17, 18.34, 17.84)
+        .stroke(stroke)
+        .attr("data-context-stroke", true);
+    sym.path("M15.5,15.87,19,14.13a.87.87,0,0,1,1,.16h0a.86.86,0,0,1,.09,1.1l-1.72,2.45L19,22.5")
+        .stroke(stroke)
+        .fill("none")
+        .attr("data-context-stroke", true);
+    sym.path("M8.5,15.87,5,14.13a.87.87,0,0,0-1,.16H4a.86.86,0,0,0-.09,1.1l1.72,2.45L5,22.5")
+        .stroke(stroke)
+        .fill("none")
+        .attr("data-context-stroke", true);
+    sym.line(1, 18.51, 5.66, 17.84)
+        .stroke(stroke)
+        .attr("data-context-stroke", true);
+    sym.line(2.33, 21.17, 5.66, 17.84)
+        .stroke(stroke)
+        .attr("data-context-stroke", true);
+    sym.line(4.99, 22.51, 5.66, 17.84)
+        .stroke(stroke)
+        .attr("data-context-stroke", true);
+    sym.line(4.47, 0.68, 4.47, 5.38)
+        .stroke(stroke)
+        .attr("data-context-stroke", true);
+    sym.line(7.29, 1.62, 4.47, 5.38)
+        .stroke(stroke)
+        .attr("data-context-stroke", true);
+    sym.path("M22.36,1.62,19.53,5.38,20.39,8a1.51,1.51,0,0,1,.08.51h0a1.61,1.61,0,0,1-1.62,1.62H16.57")
+        .stroke(stroke)
+        .fill("none")
+        .attr("data-context-stroke", true);
+    sym.path("M1.5,1.62,4.33,5.38,3.47,8a1.52,1.52,0,0,0-.09.51h0A1.62,1.62,0,0,0,5,10.09H7.29")
+        .stroke(stroke)
+        .fill("none")
+        .attr("data-context-stroke", true);
+    sym.viewbox(0, 0, 24, 24);
+    return sym;
+});
+
 sheet.glyphs.set("hex-flat", (canvas: SVGContainer) => {
     const symbol = canvas.symbol();
     const group = symbol.group();
